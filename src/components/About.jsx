@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import aboutMe from "../assets/about-me.png";
 
 const highlights = [
   {
@@ -42,8 +43,8 @@ export default function About() {
           transition={{ duration: 0.5 }}
         >
           <img
-            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
-            alt="Coding setup"
+            src={aboutMe}
+            alt="About me"
             className="h-[360px] w-full rounded-2xl object-cover"
             loading="lazy"
           />

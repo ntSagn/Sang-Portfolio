@@ -10,7 +10,7 @@ const navItems = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const cvUrl = "/cv/fresher-sw.pdf";
+  const cvUrl = "https://drive.google.com/file/d/1HwX_n4oWRAue1cSwY-1YSiAy-fuY6a79/view?usp=sharing";
 
   const linkClass = ({ isActive }) =>
     [
@@ -32,31 +32,14 @@ export default function Navbar() {
               {item.label}
             </NavLink>
           ))}
-          <div className="group relative">
-            <button
-              className="rounded-full border border-[var(--line)] bg-[rgba(16,37,51,0.7)] px-4 py-2 text-sm font-semibold uppercase tracking-[0.12em] text-[var(--text)] transition hover:border-[var(--primary)] hover:text-[var(--primary)]"
-              type="button"
-            >
-              My CV
-            </button>
-            <div className="invisible absolute right-0 top-[calc(100%+0.55rem)] z-50 min-w-44 rounded-2xl border border-[var(--line)] bg-[rgba(8,22,30,0.95)] p-2 opacity-0 shadow-2xl shadow-black/30 transition duration-200 before:absolute before:-top-[0.55rem] before:left-0 before:h-[0.55rem] before:w-full before:content-[''] group-hover:visible group-hover:opacity-100">
-              <a
-                href={cvUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block rounded-xl px-3 py-2 text-sm font-medium text-[var(--text)] transition hover:bg-[rgba(45,212,191,0.15)] hover:text-[var(--primary)]"
-              >
-                View CV
-              </a>
-              <a
-                href={cvUrl}
-                download="NGUYEN_THANH_SANG_Fresher_SW.pdf"
-                className="mt-1 block rounded-xl px-3 py-2 text-sm font-medium text-[var(--text)] transition hover:bg-[rgba(249,115,22,0.16)] hover:text-[var(--secondary)]"
-              >
-                Download CV
-              </a>
-            </div>
-          </div>
+          <a
+            href={cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-[var(--line)] bg-[rgba(16,37,51,0.7)] px-4 py-2 text-sm font-semibold uppercase tracking-[0.12em] text-[var(--text)] transition hover:border-[var(--primary)] hover:text-[var(--primary)]"
+          >
+            My CV
+          </a>
         </div>
         <button
           className="rounded-xl border border-[var(--line)] bg-[rgba(16,37,51,0.6)] p-2 text-[var(--text)] md:hidden"
@@ -80,24 +63,14 @@ export default function Navbar() {
               {item.label}
             </NavLink>
           ))}
-          <div className="mt-1 rounded-xl border border-[var(--line)] bg-[rgba(16,37,51,0.45)] p-2">
-            <p className="mb-2 px-2 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--muted)]">My CV</p>
-            <a
-              href={cvUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block rounded-lg px-3 py-2 text-sm font-semibold text-[var(--text)] transition hover:bg-[rgba(45,212,191,0.15)] hover:text-[var(--primary)]"
-            >
-              View CV
-            </a>
-            <a
-              href={cvUrl}
-              download="NGUYEN_THANH_SANG_Fresher_SW.pdf"
-              className="mt-1 block rounded-lg px-3 py-2 text-sm font-semibold text-[var(--text)] transition hover:bg-[rgba(249,115,22,0.16)] hover:text-[var(--secondary)]"
-            >
-              Download CV
-            </a>
-          </div>
+          <a
+            href={cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-1 block rounded-xl border border-[var(--line)] bg-[rgba(16,37,51,0.45)] px-3 py-2 text-sm font-semibold uppercase tracking-[0.1em] text-[var(--text)] transition hover:border-[var(--primary)] hover:text-[var(--primary)]"
+          >
+            My CV
+          </a>
         </div>
       )}
     </nav>
