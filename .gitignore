@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Personal CV files (keep local only)
+NGUYEN THANH SANG - Fresher_SW.pdf
+public/cv/fresher-sw.pdf
