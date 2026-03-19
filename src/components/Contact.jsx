@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: <FaPhone className="text-[var(--secondary)]" />,
     label: "Phone",
-    value: "+84 962 227 431",
+    value: "+84 962 227 431 | +84 586 318 144",
   },
   {
     icon: <FaLocationDot className="text-[var(--primary)]" />,

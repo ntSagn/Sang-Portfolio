@@ -21,13 +21,13 @@ const education = {
   school: "Sai Gon University",
   degree: "Engineer in Software Engineering",
   gpa: "3.37 / 4.0",
-  period: "10/2021 - 03/2026",
+  period: "10/2021 - 10/2025",
   location: "Ho Chi Minh City, Vietnam",
 };
 
 const achievements = [
-  "Academic Excellence Scholarship - Semester 1, 2023-2024",
-  "Academic Excellence Scholarship - Semester 1, 2024-2025",
+  "Academic Excellence Scholarship - Semester 1 (2023-2024)",
+  "Academic Excellence Scholarship - Semester 1 (2024-2025)",
   "TOEIC 625 (Listening/Reading), valid 06/2025 - 06/2027",
 ];
 
