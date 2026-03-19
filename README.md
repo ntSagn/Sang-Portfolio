@@ -45,21 +45,3 @@ git branch -M main
 git remote add origin https://github.com/<username>/<repo-name>.git
 git push -u origin main
 ```
-
-## What is GitHub Actions?
-
-GitHub Actions is GitHub's CI/CD automation platform.
-
-For this static web project, it is very suitable because it can:
-- Automatically install dependencies.
-- Automatically build your Vite app.
-- Automatically deploy to GitHub Pages.
-
-So every time you push new code, your portfolio website updates automatically without manual upload.
-
-## Next step: Docker learning path
-
-GitHub Pages cannot run Docker containers directly, but Docker is still useful for local learning and future cloud deployment.
-
-Suggested next step after Pages is live:
-- Add `Dockerfile` and `docker-compose.yml` to run the built static site with Nginx.
