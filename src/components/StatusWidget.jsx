@@ -11,12 +11,12 @@ const items = [
   {
     icon: <FaMapMarkerAlt className="text-[var(--secondary)]" />,
     title: "Based In",
-    value: "Ho Chi Minh City",
+    value: "Ho Chi Minh City, Viet Nam",
   },
   {
     icon: <FaRegLightbulb className="text-[var(--primary)]" />,
     title: "Current Focus",
-    value: "React + UI Animation",
+    value: "React + .NET",
   },
 ];
 
